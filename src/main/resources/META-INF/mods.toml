@@ -1,0 +1,25 @@
+modLoader="javafml" 
+loaderVersion="[31,)"
+
+[[mods]] 
+modId="olismod" 
+version="${file.jarVersion}" 
+displayName="Olis Mod"
+credits="Thanks for HyCraftHD for providing this great tutorial"
+authors="Buttervogel"
+description='''
+This is Olis first mod.
+'''
+[[dependencies.olismod]]
+    modId="forge" 
+    mandatory=true 
+    versionRange="[31,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.olismod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
