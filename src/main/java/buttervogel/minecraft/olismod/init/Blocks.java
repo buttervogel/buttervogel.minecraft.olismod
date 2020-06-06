@@ -1,7 +1,7 @@
 package buttervogel.minecraft.olismod.init;
 
 import buttervogel.minecraft.olismod.OlisMod;
-import buttervogel.minecraft.olismod.block.BlockKlumpen;
+import buttervogel.minecraft.olismod.block.Klumpen;
 import buttervogel.minecraft.olismod.item.ItemBlockDefault;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -13,12 +13,12 @@ import net.minecraftforge.registries.IForgeRegistry;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Blocks {
 
-    public static final BlockKlumpen klumpen = new BlockKlumpen();
+    public static final Klumpen klumpen = new Klumpen();
 
     @SubscribeEvent
     public static void registerBlock(RegistryEvent.Register<Block> event) {
         IForgeRegistry<Block> registry = event.getRegistry();
-        klumpen.setRegistryName(OlisMod.MOD_ID,"blockklumpen");
+        klumpen.setRegistryName(OlisMod.MOD_ID,"klumpen");
         registry.register(klumpen);
     }
     @SubscribeEvent

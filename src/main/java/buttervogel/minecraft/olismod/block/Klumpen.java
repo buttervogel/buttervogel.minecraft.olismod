@@ -3,9 +3,9 @@ package buttervogel.minecraft.olismod.block;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 
-public class BlockKlumpen extends Block {
+public class Klumpen extends Block {
 
-    public BlockKlumpen( ) {
+    public Klumpen( ) {
         super(Properties.create(Material.ROCK));
     }
 }

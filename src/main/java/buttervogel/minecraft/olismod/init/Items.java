@@ -16,7 +16,7 @@ public class Items {
     @SubscribeEvent
     public static void register(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
-        item.setRegistryName(OlisMod.MOD_ID,"itemolismod");
+        item.setRegistryName(OlisMod.MOD_ID,"bimbam");
         registry.register(item);
     }
 }

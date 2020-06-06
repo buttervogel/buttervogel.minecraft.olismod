@@ -1,8 +1,8 @@
 package buttervogel.minecraft.olismod.init;
 
-import buttervogel.minecraft.olismod.itemgroup.OlisModItemGroup;
+import buttervogel.minecraft.olismod.itemgroup.OlisItemGroup;
 
 public class ItemGroups {
 
-    public static final OlisModItemGroup group = new OlisModItemGroup();
+    public static final OlisItemGroup group = new OlisItemGroup();
 }

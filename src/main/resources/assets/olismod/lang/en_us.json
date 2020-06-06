@@ -1,5 +1,5 @@
 {
     "itemGroup.olismod" : "Olis Stuff",
-    "item.olismod.itemolismod": "Olis Moditem",
-    "block.olismod.blockklumopen": "Olis Klumpen"
+    "item.olismod.bimbam": "Bimbam",
+    "block.olismod.klumpen": " Klumpen"
 }

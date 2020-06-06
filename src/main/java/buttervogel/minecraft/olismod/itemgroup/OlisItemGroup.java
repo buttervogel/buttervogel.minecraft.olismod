@@ -6,9 +6,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 
-public class OlisModItemGroup extends ItemGroup {
+public class OlisItemGroup extends ItemGroup {
 
-    public OlisModItemGroup() {
+    public OlisItemGroup() {
         super("olismod");
     }
 
