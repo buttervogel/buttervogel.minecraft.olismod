@@ -6,6 +6,6 @@ import net.minecraft.block.material.Material;
 public class BlockKlumpen extends Block {
 
     public BlockKlumpen( ) {
-        super(Properties.create(Material.ICE));
+        super(Properties.create(Material.ROCK));
     }
 }

@@ -13,18 +13,18 @@ import net.minecraftforge.registries.IForgeRegistry;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Blocks {
 
-    public static final BlockKlumpen blockKlumpen = new BlockKlumpen();
+    public static final BlockKlumpen klumpen = new BlockKlumpen();
 
     @SubscribeEvent
     public static void registerBlock(RegistryEvent.Register<Block> event) {
         IForgeRegistry<Block> registry = event.getRegistry();
-        blockKlumpen.setRegistryName(OlisMod.MOD_ID,"blockklumpen");
-        registry.register(blockKlumpen);
+        klumpen.setRegistryName(OlisMod.MOD_ID,"blockklumpen");
+        registry.register(klumpen);
     }
     @SubscribeEvent
     public static void registerItem(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
-        registry.register(new ItemBlockDefault(blockKlumpen));
+        registry.register(new ItemBlockDefault(klumpen));
 
     }
 }
