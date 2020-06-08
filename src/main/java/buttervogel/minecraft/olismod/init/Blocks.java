@@ -18,13 +18,13 @@ public class Blocks {
     @SubscribeEvent
     public static void registerBlock(RegistryEvent.Register<Block> event) {
         IForgeRegistry<Block> registry = event.getRegistry();
-        klumpen.setRegistryName(OlisMod.MOD_ID,"klumpen");
+        klumpen.setRegistryName(OlisMod.MOD_ID, "klumpen");
         registry.register(klumpen);
     }
+
     @SubscribeEvent
     public static void registerItem(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
         registry.register(new ItemBlockDefault(klumpen));
-
     }
 }

@@ -1,7 +1,7 @@
 package buttervogel.minecraft.olismod.init;
 
 import buttervogel.minecraft.olismod.OlisMod;
-import buttervogel.minecraft.olismod.item.ItemOlisMod;
+import buttervogel.minecraft.olismod.item.Bimbam;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -11,7 +11,7 @@ import net.minecraftforge.registries.IForgeRegistry;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Items {
 
-    public static final ItemOlisMod item = new ItemOlisMod();
+    public static final Bimbam item = new Bimbam();
 
     @SubscribeEvent
     public static void register(RegistryEvent.Register<Item> event) {
