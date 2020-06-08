@@ -1,0 +1,13 @@
+{
+  "type": "smelting",
+  "ingredient": [
+    {
+      "item": "olismod:klumpen"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "experiance": 0.35,
+    "coockingtime": 20
+  }
+}

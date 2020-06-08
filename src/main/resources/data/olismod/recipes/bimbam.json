@@ -1,0 +1,28 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " LL",
+    " BL",
+    "RR "
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "B": {
+      "item": "olismod:klumpen"
+    }
+  },
+  "result": {
+    "item": "olismod:bimbam",
+    "count": 3
+  }
+
+
+
+
+
+}

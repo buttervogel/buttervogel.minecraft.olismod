@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "olismod:bimbam"
+    }
+  ],
+  "results": {
+    "item": "olismod:klumpen"
+  }
+}
