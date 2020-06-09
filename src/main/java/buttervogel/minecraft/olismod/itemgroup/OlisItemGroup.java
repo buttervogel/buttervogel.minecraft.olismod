@@ -15,6 +15,7 @@ public class OlisItemGroup extends ItemGroup {
     @OnlyIn(Dist.CLIENT)
     @Override
     public ItemStack createIcon() {
-        return new ItemStack(Blocks.CHISELED_RED_SANDSTONE);
+        return new ItemStack(Blocks.BEDROCK);
     }
+
 }

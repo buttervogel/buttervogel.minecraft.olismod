@@ -14,7 +14,7 @@ import net.minecraft.world.World;
 public class Bimbam extends Item {
 
     public Bimbam() {
-        super(new Properties().group(ItemGroups.group).defaultMaxDamage(20).rarity(Rarity.UNCOMMON));
+        super(new Properties().group(ItemGroups.OLIS_ITEM_GROUP).defaultMaxDamage(20).rarity(Rarity.UNCOMMON));
     }
 
     @Override

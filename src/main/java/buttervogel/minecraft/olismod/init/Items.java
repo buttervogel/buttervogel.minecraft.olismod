@@ -1,7 +1,7 @@
 package buttervogel.minecraft.olismod.init;
 
-import buttervogel.minecraft.olismod.OlisMod;
 import buttervogel.minecraft.olismod.item.Bimbam;
+import buttervogel.minecraft.olismod.item.Burger;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -11,12 +11,21 @@ import net.minecraftforge.registries.IForgeRegistry;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Items {
 
-    public static final Bimbam item = new Bimbam();
+    /*
+     * Items
+     */
+    public static final Bimbam BIMBAM = new Bimbam();
+    public static final Burger BURGER = new Burger();
+
+    /*
+     * Foods
+     */
 
     @SubscribeEvent
     public static void register(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
-        item.setRegistryName(OlisMod.MOD_ID,"bimbam");
-        registry.register(item);
+
+        registry.register(BIMBAM.setRegistryName("bimbam"));
+        registry.register(BURGER.setRegistryName("burger"));
     }
 }
