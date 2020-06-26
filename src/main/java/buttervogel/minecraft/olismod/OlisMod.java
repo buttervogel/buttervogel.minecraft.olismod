@@ -15,8 +15,8 @@ import org.apache.logging.log4j.Logger;
 @Mod(OlisMod.MOD_ID)
 public class OlisMod {
 
-    private static final Logger LOGGER = LogManager.getLogger();        // Directly reference a log4j logger.
     public static final String MOD_ID = "olismod";
+    private static final Logger LOGGER = LogManager.getLogger();        // Directly reference a log4j logger.
     public static final CommonProxy proxy = DistExecutor.runForDist(() -> ClientProxy::new, () -> CommonProxy::new);
 
     public OlisMod() {

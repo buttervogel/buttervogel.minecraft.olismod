@@ -12,10 +12,17 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class Items {
 
     /*
+     * statics
+     */
+
+    public static final String REGNAME_ITEM_BIMBAM = "bimbam";
+    public static final String REGNAME_ITEM_BURGER = "burger";
+
+    /*
      * Items
      */
-    public static final Bimbam BIMBAM = new Bimbam();
-    public static final Burger BURGER = new Burger();
+    public static final Bimbam ITEM_BIMBAM = new Bimbam();
+    public static final Burger ITEM_BURGER = new Burger();
 
     /*
      * Foods
@@ -24,8 +31,7 @@ public class Items {
     @SubscribeEvent
     public static void register(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
-
-        registry.register(BIMBAM.setRegistryName("bimbam"));
-        registry.register(BURGER.setRegistryName("burger"));
+        registry.register(ITEM_BIMBAM.setRegistryName(REGNAME_ITEM_BIMBAM));
+        registry.register(ITEM_BURGER.setRegistryName(REGNAME_ITEM_BURGER));
     }
 }
