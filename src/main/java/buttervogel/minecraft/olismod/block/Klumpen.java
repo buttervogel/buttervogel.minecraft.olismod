@@ -7,15 +7,13 @@ import net.minecraft.block.material.Material;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.IWorldReader;
-import net.minecraft.world.storage.loot.LootTables;
 import net.minecraftforge.common.ToolType;
 
-import javax.annotation.Nullable;
 
 public class Klumpen extends Block {
 
     public Klumpen() {
-        super(Properties.create(Material.ROCK).lightValue(10).slipperiness(1).hardnessAndResistance(5).sound(SoundType.GLASS));
+        super(Properties.create(Material.ROCK).slipperiness(1).hardnessAndResistance(5).sound(SoundType.GLASS));
 
     }
 
@@ -25,7 +23,6 @@ public class Klumpen extends Block {
      * @param state
      * @return
      */
-    @Nullable
     @Override
     public ToolType getHarvestTool(BlockState state) {
         return ToolType.PICKAXE;
