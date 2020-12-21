@@ -14,7 +14,6 @@ public class Klumpen extends Block {
 
     public Klumpen() {
         super(Properties.create(Material.ROCK).slipperiness(1).hardnessAndResistance(5).sound(SoundType.GLASS));
-
     }
 
     /**
