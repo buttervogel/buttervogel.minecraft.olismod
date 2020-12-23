@@ -4,6 +4,7 @@ import buttervogel.minecraft.olismod.OlisMod;
 import buttervogel.minecraft.olismod.block.Klumpen;
 import buttervogel.minecraft.olismod.item.ItemBlockDefault;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -14,6 +15,10 @@ public class Blocks {
 
     public static final String REGNAME_BLOCK_KLUMPEN = "klumpen";
     public static final Klumpen BLOCK_KLUMPEN = new Klumpen();
+
+
+
+    public static final BlockState KLUMPEN_ORE = BLOCK_KLUMPEN.getDefaultState();
 
     @SubscribeEvent
     public static void registerBlock(RegistryEvent.Register<Block> event) {
