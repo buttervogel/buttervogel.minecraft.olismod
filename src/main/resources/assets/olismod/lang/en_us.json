@@ -2,5 +2,19 @@
     "itemGroup.olismod" : "Olis Stuff",
     "item.olismod.bimbam": "Bimbam",
     "item.olismod.burger": "Burger",
-    "block.olismod.klumpen": " Klumpen"
+    "block.olismod.klumpen": " Klumpen",
+
+    "_comment": "Entity",
+    "entity.olismod.adelie_penguin": "Adélie Penguin",
+    "item.olismod.adelie_penguin_spawn_egg": "Adélie Penguin Spawn Egg",
+
+    "_comment": "Subtitles",
+    "olismod:subtitles.adelie.ambient": "Adélie Penguin squawks",
+    "olismod:subtitles.adelie.baby.ambient": "Adélie Penguin Baby squeaks",
+    "olismod:subtitles.adelie.death": "Adélie Penguin dies",
+    "olismod:subtitles.adelie.hurt": "Adélie Penguin hurts",
+
+    "_comment": "Tooltip",
+    "olismod:config.category.general.tooltip": "General config options for Waddles",
+    "olismod:config.category.spawnchances.tooltip": "Configurable spawn chances for penguins"
 }
